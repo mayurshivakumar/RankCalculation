@@ -1,0 +1,10 @@
+{
+	"ImportPath": "RankCalculation",
+	"GoVersion": "go1.4.2",
+	"Deps": [
+		{
+			"ImportPath": "github.com/pmylund/sortutil",
+			"Rev": "abeda66eb583fac2d8d98d3d2e6fbd5c67af7947"
+		}
+	]
+}
