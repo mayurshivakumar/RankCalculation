@@ -8,7 +8,7 @@ func TestGetPosition(t *testing.T) {
 	rank_calculator := GetRankCalculator()
 	user_id := 12
 
-  rank1 := GenerateRank(
+  	rank1 := GenerateRank(
 		11,
 		1,
 	)
