@@ -17,7 +17,7 @@ func TestGetPosition(t *testing.T) {
 		1,
 	)
 
-  charts := []Rank{}
+  	charts := []Rank{}
 	charts = append(
 		charts,
 		rank1,
@@ -33,7 +33,7 @@ func TestGetPosition(t *testing.T) {
 		t.Error("Expected error to be nil, got", err)
 	}
 
-  rank1 = GenerateRank(
+  	rank1 = GenerateRank(
 		11,
 		12,
 	)
